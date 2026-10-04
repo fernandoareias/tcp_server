@@ -1,0 +1,40 @@
+# Diretórios de build (CMake / Qt Creator)
+build/
+cmake-build-*/
+out/
+
+# Artefatos do CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+install_manifest.txt
+
+# Qt Creator: configurações específicas do usuário e presets gerados
+.qtcreator/*.user
+.qtcreator/qtc-cmake-presets-*/
+*.user
+*.autosave
+
+# Objetos, bibliotecas e executáveis
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+tcp_server
+
+# Arquivos temporários de editores e sistema
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
